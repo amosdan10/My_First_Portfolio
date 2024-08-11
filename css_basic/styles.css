@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex ;
+    flex-direction: row;
+    flex: auto;
+    color: rgb(228, 135, 15);
+}
+header {
+    flex-direction: row;
+    text-decoration: none;
+    color: rgba(7, 33, 121, 0.823);
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: bisque;
+}
+article {
+    flex: 2;
+    overflow-y: auto;
+    background-color: blue;
+    border: 2px;
+}
+.class {
+    color: royalblue;
+}
